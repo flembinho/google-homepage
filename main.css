@@ -8,6 +8,8 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
+    font-size: 20px;
 }
 
 ul {
@@ -16,6 +18,23 @@ ul {
    padding: 0;
    overflow: hidden;
    background-color: #fff;
+}
+
+#top-left-nav {
+    display: flex;
+    flex-direction: ltr;
+    align-items: center;
+}
+
+#top-right-nav {
+    display: flex;
+    flex-direction: ltr;
+    align-items: center;
+
+}
+
+#login {
+    border-radius: 50%; 
 }
 
 a {
