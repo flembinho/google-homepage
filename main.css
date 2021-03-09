@@ -46,3 +46,25 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#bottom-nav-left {
+        display: flex;
+        flex-direction: ltr;
+        align-items: center;
+    }
+    
+#bottom-nav-right {
+        display: flex;
+        flex-direction: ltr;
+        align-items: center;
+    }
+
+#googlepic {
+ margin: 0 auto;
+}
